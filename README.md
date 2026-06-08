@@ -14,6 +14,7 @@ The goal is to improve task performance by enabling **bidirectional interaction*
 ## 🎯 Motivation
 Traditional multi-task learning approaches often share a single encoder across tasks or rely on unidirectional feedback, which limits cross-task information exchange.  
 TwInS introduces a **two-stream interactive framework** to enable mutual guidance between tasks, improving both semantic and geometric perception.
+![Framework](assets/comparison.png)  
 
 ## 🛠 Method
 - **Scene Parsing Stream:** Extracts semantic context and instance-level features to guide geometric predictions.  
@@ -26,7 +27,8 @@ TwInS introduces a **two-stream interactive framework** to enable mutual guidanc
 - **Visualization Analysis:** Qualitative results show enhanced object boundaries and improved correspondence between tasks.  
 - **Cross-Task Adapter Validation:** Experiments confirm the adapter effectively strengthens interaction between streams.
 
-![Qualitative Results](assets/qualitative_results.png)  
+![Qualitative Results](assets/qualitative_results1.png)  
+![Qualitative Results](assets/qualitative_results2.png)  
 *Example visual results showing improved segmentation and alignment with geometric features.*
 
 ## Notes on Code Availability
