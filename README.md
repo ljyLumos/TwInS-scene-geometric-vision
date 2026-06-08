@@ -28,7 +28,6 @@ TwInS introduces a **two-stream interactive framework** to enable mutual guidanc
 
 ## Notes on Code Availability
 The full code is under internal collaboration review.  
-This repository provides a structured overview, visual results, and detailed report for project evaluation.
 
 ## Keywords
 Multi-task Learning · Scene Parsing · Semantic Segmentation · Instance Segmentation · Geometric Vision · Stereo Matching · Optical Flow
