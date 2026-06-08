@@ -13,12 +13,6 @@ TwInS introduces a **two-stream interactive framework** to enable mutual guidanc
 - **Geometric Vision Stream:** Predicts stereo and optical flow correspondences, providing iterative refinement for scene parsing.  
 - **Cross-Task Adapter:** Bridges hidden states from the geometric stream to the parsing stream to enhance feature fusion and task interaction.
 
-## My Contributions
-- Conducted **benchmark evaluation** and visual analysis across multiple models, including DFormerv2.  
-- Validated the **effectiveness of the Cross-Task Adapter** for improving cross-task feature fusion.  
-- Analyzed **quantitative improvements** in semantic and instance segmentation performance.  
-- Produced **visualizations** demonstrating clearer object boundaries and better alignment with geometric features.
-
 ## Results
 - **Semantic Segmentation:** Up to **7.23% mIoU improvement** on Cityscapes, vKITTI2, and KITTI 2015 datasets.  
 - **Instance Segmentation:** Up to **13.64% mAP improvement**, demonstrating effective cross-task feature fusion.  
