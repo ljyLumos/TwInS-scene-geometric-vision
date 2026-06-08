@@ -2,7 +2,7 @@
 
 ### [**Paper**](https://arxiv.org/abs/2602.13588)
 
-This is the official implementation for [TwlnS](https://arxiv.org/abs/2602.13588):
+This is the official implementation for [TwlnS](https://arxiv.org/abs/2602.13588): https://arxiv.org/abs/2602.13588
 
 ## 📋 Overview
 TwInS explores the interaction between **scene parsing** and **geometric vision** tasks, including semantic segmentation, instance segmentation, stereo matching, and optical flow.  
